@@ -1,4 +1,5 @@
 
+import { image, source } from "framer-motion/client";
 import {
     mobile,
     backend,
@@ -19,6 +20,8 @@ import {
     java,
     git,
     threejs,
+    Travel,
+    Movie
   } from "../assets";
   
   export const navLinks = [
@@ -129,6 +132,58 @@ import {
     }
   ];
   
+  const works= [
+    {
+      title: "Movie Info App",
+      description:
+        "A web application that allows users to search for movies and get information about them using the TMDB API. Built with React, Node.js, and CSS.",
+        image: Movie,
+        link: "https://savio-123.github.io/MovieSiteInfo/",
+        tags: [
+          {
+            name:"react",
+            color:"pink-text-gradient"
+          },
+          {
+            name:"css",
+            color:"blue-text-gradient"
+          },
+          { name:"tmdbapi",
+            color:"green-text-gradient"
+          },
+          {
+            name:"tailwind",
+            color:"text-white"
+          } 
+        ]
+    },
+    {
+      title: "Travel Guide App",
+      description:
+        "A web application that provides information about various travel destinations, including popular attractions and how to get there. Built with React, Node.js, and CSS.",
+        image: Travel,
+        link: "https://savio-123.github.io/TravelWeb/",
+        tags: [
+          {
+            name:"react", 
+            color:"pink-text-gradient"
+          },  
+          {
+            name:"css",
+            color:"blue-text-gradient"              
+          },
+          {
+            name:"unsplashapi",
+            color:"green-text-gradient"
+          },
+          {
+            name:"tailwind",
+            color:"text-white"
+          }
+        ]
+    },
+
+  ];
   const languages = [
     { name: "English", level: "Fluent" },
     { name: "Hindi", level: "Intermediate" },
@@ -159,4 +214,4 @@ import {
     }
   ];
  
-  export { services, technologies, educations, interests,languages };
+  export { services, technologies, educations, interests,languages, works };

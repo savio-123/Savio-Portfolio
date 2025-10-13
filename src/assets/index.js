@@ -27,6 +27,8 @@ import sing from "./sing.jpg";
 import gaming from "./gaming.jpg";
 import webdev from "./webdev.jpg";
 import edit from "./edit.jpg";
+import Travel from "./Travel.png";
+import Movie from "./Movie.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -62,6 +64,8 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  Travel,
+  Movie,
   redux,
   tailwind,
   typescript,
