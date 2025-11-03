@@ -21,6 +21,7 @@ import {
     git,
     threejs,
     Travel,
+    Resumeai,
     Movie
   } from "../assets";
   
@@ -182,6 +183,35 @@ import {
           }
         ]
     },
+    {
+      title: "Resume Analyzer",
+      description:
+      "A web application that analyzes resumes and provides feedback on their content and structure. Built with React, Node.js, and CSS.",
+      image: Resumeai,
+      link: "https://ai-resume-analyzer-chi-lemon.vercel.app/",
+      tags: [
+        {
+          name:"react", 
+          color:"pink-text-gradient"
+        },  
+        {
+          name:"css",
+          color:"blue-text-gradient"              
+        },
+        {
+          name:"puter",
+          color:"green-text-gradient"
+        },
+        {
+          name:"typescript",
+          color:"green-text-gradient"
+        },
+        {
+          name:"tailwind",
+          color:"text-white"
+        }
+      ]
+    }
 
   ];
   const languages = [

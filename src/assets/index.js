@@ -29,6 +29,7 @@ import webdev from "./webdev.jpg";
 import edit from "./edit.jpg";
 import Travel from "./Travel.png";
 import Movie from "./Movie.png";
+import Resumeai from "./Resumeai.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -65,6 +66,7 @@ export {
   nodejs,
   reactjs,
   Travel,
+  Resumeai,
   Movie,
   redux,
   tailwind,
